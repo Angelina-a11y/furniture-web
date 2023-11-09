@@ -1,0 +1,139 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    color: #343434;
+    text-decoration: none;
+}
+.navigation{
+    -webkit-text-fill-color: inherit;
+    background-color: #fff;
+    background-clip: border-box;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 26px;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .07);
+}
+.nav-wrap {
+    max-width: 1620px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+}
+.logo, .logo-footer{
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem;
+    color: #343434;
+}
+.nav-item {
+    align-items: center;
+    margin-right: 0;
+    display: flex;
+}
+.nav-item-children{
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+    display: flex;
+}
+.item{
+    padding-right: 1rem;
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+}
+
+.slogan{
+    padding-left: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    width: 50%;
+    /* font-size: 1.25rem; 
+    line-height: 1.75rem;  */
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem;
+}
+.phts1{
+    width: 100%;
+    height: 100%;
+    max-width: 767px;
+}
+
+.btn, .btn1{
+    width: 140px;
+    height: 50px;
+    background: #343434;
+    border-radius: 78px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.btn1{
+    background: #E6B31E;
+
+}
+.btn:hover, .btn1:hover{
+    /* background-color: #2EE59D; */
+    background: #FCFAF1;
+    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    transform: translateY(-7px);
+
+  }
+.btn-txt{
+    width: 140px;
+    height: 50px;
+    padding-top: 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #FCFAF1;
+}
+.btn-txt:hover{
+    color: #343434;
+
+}
+
+.btn2{
+    width: 140px;
+    height: 50px;
+    background: #343434;
+    border-radius: 78px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+
+.footer{
+    width: 100%;
+    height: 344px;
+    background-color: #343434;
+}
+
+.logo-footer{
+    color: #FCFAF1; 
+    text-align: center; 
+    padding-top: 5rem
+}
+
+.logo-menu-wrap{
+    display: flex; 
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    color: #FCFAF1;
+}
+
+.icon-menu-wrap{
+    display: flex; 
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1.5rem;
+}
