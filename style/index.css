@@ -55,7 +55,10 @@ a{
 .slogan{
     padding-left: 1rem;
     text-align: center;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-right: 1rem;
     width: 50%;
     /* font-size: 1.25rem; 
