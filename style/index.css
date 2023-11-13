@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 .navigation{
+    z-index: 900;
     -webkit-text-fill-color: inherit;
     background-color: #fff;
     background-clip: border-box;
@@ -63,7 +64,7 @@ a{
     width: 50%;
     /* font-size: 1.25rem; 
     line-height: 1.75rem;  */
-    font-size: 2.25rem; /* 36px */
+    font-size: 2.25rem;
     line-height: 2.5rem;
 }
 .phts1{
@@ -140,3 +141,123 @@ a{
     gap: 2rem;
     padding-top: 1.5rem;
 }
+
+/* about us */
+.about-img{
+   
+    z-index: 0;
+    opacity: 0.5;
+}
+.img-capt {
+    color: #FCFAF1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem;
+  }
+.about-txt{
+    color: #343434;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.img-overlay {
+    position: relative;
+    margin-left: 2rem;
+  }
+  
+  .img-overlay-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.5);
+  }
+  
+  .img-overlay:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:#FCFAF1;
+    position: absolute;
+    top: 2rem;
+    left: 5%;
+    text-align: center;
+  }
+
+  /* gallery */
+  .phts2{
+    width: 100%;
+    height: 550px;
+    /* max-width: 767px; */
+    object-fit: cover;
+  }
+  .title{
+    text-align: center;
+    margin-top: 7rem;
+    color: #343434;
+    font-size: 2.25rem;
+  }
+
+  .btn-project{
+    /* margin-left: 2rem; */
+    /* text-align: center; */
+    width: 250px;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .btn-project > .arrow{
+    /* margin-left: 6px; */
+    width: 50px;
+    transition: all;
+  }
+  .btn-project:hover > .arrow{
+    margin-left: 10px;
+  }
+  .btn-project:hover > p{
+    text-decoration: underline;
+  }
+  .service-image{
+    position: relative;
+    filter: brightness(50%);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .service-content{
+    position: absolute;
+    z-index: 10;
+  }
+  .service-title{
+    font-size: 2rem;
+    color: #FCFAF1;
+    padding-left: 2rem;
+  }
+  .service-txt{
+    font-size: 1.25rem;
+    color: #FCFAF1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify
+  }
+  
+
+ 
