@@ -1,71 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Contact Us</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="style/index.css" />
-   </head>
-   <body>
-      <div class="navigation">
-         <div class="nav-wrap">
-            <div class="logo"><a href="index.html">Serenity Deco Studio</a></div>
-            <div class="nav-item">
-               <div class="nav-item-children">
-                  <div class="item"><a href="about.html">About Us</a></div>
-                  <div class="item"><a href="service.html">Service</a></div>
-                  <div class="item"><a href="gallery.html">Gallery</a></div>
-                  <div class="item"><a href="contact.html">Contact Us</a></div>
-               </div>
-            </div>
-         </div>
-      </div>
 
-     <!-- section 1 -->
-     <div class="card-holder">
-      <div style="width: 38%;">
-        <img src="img/product 6.png" alt="p6" class="img-contact">
-      </div>
-      <div style="width: 60%;">
-         <h2 class="footer-txt">Contact Us</h2>
-         <p class="footer-txt">Let's partner on design.</p>
-         <form action="#">
-            <div style="display: flex; gap: 1rem;">
-               <input type="text" name="name" id="name" placeholder="First Name...">
-               <input type="text" name="name" id="name"  placeholder="Last Name...">
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/index.css" />
+</head>
 
-            <div style="display: flex; gap: 1rem;">
-               <input type="text" name="name" id="name" placeholder="Email...">
-               <input type="text" name="name" id="name"  placeholder="Phone Number...">
-            </div>
+<body>
+  <!-- Navigation -->
+  <div class="navigation">
+    <div class="nav-item logo"><a href="index.html">Serenity Deco Studio</a></div>
+    <div class="nav-item">
+      <div class="item"><a href="about.html">About Us</a></div>
+      <div class="item"><a href="service.html">Service</a></div>
+      <div class="item"><a href="gallery.html">Gallery</a></div>
+      <div class="item"><a href="contact.html">Contact Us</a></div>
+    </div>
+  </div>
 
-            <textarea name="txt" id="txt" cols="30" rows="10" style="width: 100%;" placeholder="your Message"></textarea>
+  <!-- section 1 -->
+  <div class="card-holder gap-4">
+    <img src="img/product 6.png" alt="p6" class="w-full" style="border-radius: 2rem;">
+    <div style="padding: 1rem;">
+      <h2 class="footer-txt">Contact Us</h2>
+      <p class="footer-txt">Let's partner on design.</p>
+      <form action="#">
+        <div style="display: flex; gap: 1rem;">
+          <input type="text" name="name" id="name" placeholder="First Name...">
+          <input type="text" name="name" id="name" placeholder="Last Name...">
+        </div>
 
-            <button type="submit">Submit</button>
-         </form>
-         
-      </div>
+        <div style="display: flex; gap: 1rem;">
+          <input type="text" name="name" id="name" placeholder="Email...">
+          <input type="text" name="name" id="name" placeholder="Phone Number...">
+        </div>
 
-     </div>
+        <textarea name="txt" id="txt" cols="30" rows="10" style="width: 100%;" placeholder="your Message"></textarea>
 
-      <!-- section 4 (footer) -->
-      <div class="footer">
-         <p class="logo-footer">Serenity Deco Studio</p>
-         <div class="logo-menu-wrap">
-            <a href="about.html">About Us</a>
-            <a href="service.html">Service</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact Us</a>
-         </div>
-         <div class="icon-menu-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 2476 2476" id="instagram" style="fill: #FCFAF1"><path d="M825.4 1238c0-227.9 184.7-412.7 412.6-412.7 227.9 0 412.7 184.8 412.7 412.7 0 227.9-184.8 412.7-412.7 412.7-227.9 0-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7S602.3 886.9 602.3 1238m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6s-66.5-148.5-148.6-148.5-148.6 66.5-148.6 148.5M737.8 2245.7c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3-43.3 43.3-84.6 70.1-142.4 92.6-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2M727.6 7.5c-131.8 6-221.8 26.9-300.5 57.5-81.4 31.6-150.4 74-219.3 142.8C139 276.6 96.6 345.6 65 427.1 34.4 505.8 13.5 595.8 7.5 727.6 1.4 859.6 0 901.8 0 1238s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3C2199.4 139 2130.3 96.6 2049 65c-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5"></path></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="none" viewBox="0 0 512 512" id="twitter"><g clip-path="url(#clip0_84_15698)"><rect width="512" height="512" fill="#fff" rx="60"></rect><path fill="#000" d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"></path></g><defs><clipPath id="clip0_84_15698"><rect width="512" height="512" fill="#FCFAF1"></rect></clipPath></defs></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="40px" height="40px"  viewBox="0 0 128 128" id="pinterest"><circle cx="64" cy="64" r="64" fill="#bd081c"></circle><path fill=" #FCFAF1" d="M64.49 31.83c-17.57 0-26.7 11.3-26.49 23.62.1 5.72 3.4 12.85 8.52 15.11.78.34 1.19.19 1.35-.52.13-.54.77-3.19 1.05-4.42a1.15 1.15 0 0 0-.3-1.12 15 15 0 0 1-3.18-8.9C45.3 47 52 38.66 63.54 38.66c10 0 17.12 6.53 17.29 15.87C81 65.08 75.58 72.4 68.34 72.4c-4 0-7-3.16-6.16-7.06 1.07-4.63 3.21-9.64 3.15-13-.05-3-1.78-5.5-5.25-5.5-4.09 0-7.3 4.06-7.2 9.48a13.73 13.73 0 0 0 1.32 5.79s-3.75 16.36-4.43 19.4c-1.17 5.16.4 13.53.54 14.27a.43.43 0 0 0 .78.2c.39-.51 5.13-7.5 6.42-12.55.46-1.83 2.37-9.28 2.37-9.28 1.38 2.43 5.29 4.48 9.41 4.48 12.28 0 20.95-10.82 20.71-24.27-.23-12.89-11.38-22.54-25.5-22.54"></path></svg>
-         </div>
-      </div>
-   </body>
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <section class="footer" style="margin: 1rem 0;">
+    <h1 class="logo-footer">Serenity Deco Studio</h1>
+    <div class="logo-menu-wrap">
+      <a href="about.html">About Us</a>
+      <a href="service.html">Service</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+    <div class="icon-menu-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 2476 2476" id="instagram"
+        style="fill: #FCFAF1">
+        <path
+          d="M825.4 1238c0-227.9 184.7-412.7 412.6-412.7 227.9 0 412.7 184.8 412.7 412.7 0 227.9-184.8 412.7-412.7 412.7-227.9 0-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7S602.3 886.9 602.3 1238m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6s-66.5-148.5-148.6-148.5-148.6 66.5-148.6 148.5M737.8 2245.7c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3-43.3 43.3-84.6 70.1-142.4 92.6-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2M727.6 7.5c-131.8 6-221.8 26.9-300.5 57.5-81.4 31.6-150.4 74-219.3 142.8C139 276.6 96.6 345.6 65 427.1 34.4 505.8 13.5 595.8 7.5 727.6 1.4 859.6 0 901.8 0 1238s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3C2199.4 139 2130.3 96.6 2049 65c-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5">
+        </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="none" viewBox="0 0 512 512" id="twitter">
+        <g clip-path="url(#clip0_84_15698)">
+          <rect width="512" height="512" fill="#fff" rx="60"></rect>
+          <path fill="#000"
+            d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z">
+          </path>
+        </g>
+        <defs>
+          <clipPath id="clip0_84_15698">
+            <rect width="512" height="512" fill="#FCFAF1"></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="40px" height="40px" viewBox="0 0 128 128"
+        id="pinterest">
+        <circle cx="64" cy="64" r="64" fill="#bd081c"></circle>
+        <path fill=" #FCFAF1"
+          d="M64.49 31.83c-17.57 0-26.7 11.3-26.49 23.62.1 5.72 3.4 12.85 8.52 15.11.78.34 1.19.19 1.35-.52.13-.54.77-3.19 1.05-4.42a1.15 1.15 0 0 0-.3-1.12 15 15 0 0 1-3.18-8.9C45.3 47 52 38.66 63.54 38.66c10 0 17.12 6.53 17.29 15.87C81 65.08 75.58 72.4 68.34 72.4c-4 0-7-3.16-6.16-7.06 1.07-4.63 3.21-9.64 3.15-13-.05-3-1.78-5.5-5.25-5.5-4.09 0-7.3 4.06-7.2 9.48a13.73 13.73 0 0 0 1.32 5.79s-3.75 16.36-4.43 19.4c-1.17 5.16.4 13.53.54 14.27a.43.43 0 0 0 .78.2c.39-.51 5.13-7.5 6.42-12.55.46-1.83 2.37-9.28 2.37-9.28 1.38 2.43 5.29 4.48 9.41 4.48 12.28 0 20.95-10.82 20.71-24.27-.23-12.89-11.38-22.54-25.5-22.54">
+        </path>
+      </svg>
+    </div>
+  </section>
+</body>
+
 </html>
